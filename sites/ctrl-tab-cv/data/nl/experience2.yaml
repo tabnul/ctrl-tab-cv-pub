@@ -1,0 +1,37 @@
+
+- company: Vecozo
+  roles:
+    - role: DevSecOps Engineer
+      details: |
+        - Automatisering van uitrol van applicaties en configuratie in de OTAP omgevingen
+        - Configuratiebeheer van de applicatie-omgevingen
+        - Automatiseren van penetratie-tests en het analyseren van de resultaten
+        - Adresseren of oplossen van nieuwe kwetsbaarheden in de applicaties en infrastructuur
+        - Vormen van een brug tussen applicatie-ontwikkeling teams en infrastructuur hosting team
+        - Configuratie en beheer van de SSO-oplossing gebaseerd op PingIdentity / PingFederation
+        - Configuratie, design en beheer van de Microsoft SQL Server omgeving (hoog volume transacties en hoge beschikbaarheid)
+        - Beheer van de Elastic Stack, die gebruikt wordt voor applicatie performance monitoring en rapportage van security events
+        - Ik heb een maatwerk monitoring oplossing gebouwd die de gebruikerservaring van de applicaties en API's meet en registreert
+        - Ik heb zelfstandig de technische implementatie en architectuur van het nieuwe intranet geleid (Microsoft Sharepoint 2010)
+      environment: "Omgeving: VMWare | Hyper-V | SOA | Microservices | Message Queueing | nServicebus | Nessus | Mcafee secure | OWASP | Microsoft SQL Server | Elasticsearch (ELK Stack) | Visual Studio Release Management | SCCM | SCOM | Sharepoint | IIS | ASP.NET | TFS | Fluent Migrator | Opsmanager | Google Analytics | Loadbalancing | PKI | OpenSSL | Wireshark | Powershell | Ektron | Episerver | Sharepoint | Powershell | TSQL | Topdesk | HTTP | SOAP | REST | XML | Yaml | Windows Server | DevOps | ITIL "
+      date: "02-2014 - 02-2016"
+
+
+
+- company: Mirabeau (1)
+  roles:
+    - role: Senior DevOps / Cloud Engineer - Online
+      details: |
+       - Verantwoordelijk voor het onderhoud, beheer en de beschikbaarheid van de hosting en applicatie/database omgevingen voor diverse complexe high-traffic web- en backend applicaties van diverse a-merken.
+       - Ik heb in diverse software-ontwikkelprojecten meegedraaid. Zowel als operations engineer, applicatie/performance tester als tech lead. In het bijzonder bij een grote migratie van een legacy storage-oplossing naar een moderne object-storage gebaseerde oplossing waarin miljoenen bedrijfskritische bestanden opgeslagen en aangeboden worden.
+       - Voor zowel interne als externe applicaties en klanten heb ik end-to-end performance-analyses en rapportages uitgevoerd waarbij zowel de infrastructuur als applicatie aan bod kwam
+       - Automatisering van de uitrol van cloud-services en applicaties
+       - Ik heb diverse applicaties gemigreerd van een on-prem omgeving naar de AWS en Microsoft Azure public cloud (re-platform en re-host strategie)
+       - Ik vormde een brug tussen onze hosting partners en de software ontwikkelaars en klanten (uitvoeren van configuratie-wijzigingen, coördinatie  van wijzigingen door onze partners)
+       - Ter ondersteuning van het cloud en hosting portfolio voerde ik diverse intakes uit van nieuwe service-provicers (testen van functionaliteit en performance van de platformen)
+
+        Ik werkte onder andere voor de volgende klanten:
+        NVM, Funda, KLM, Transavia, DAF Trucks, Vodafone, Aegon, Jumbo Supermarkten, Global Collect, Equens, VanDoorne, Paperlinx, Mediq, Stadgenoot, Citybox, Autotrader, DTG, Randstad"
+      environment: "Omgeving: AWS | Azure | Verizon Cloud | Interoute | VMWare | SOA | Message Queueing | Microsoft SQL Server | MySQL | Caringo CAStor | Varnish | Squid | MemcacheD | CA Lisa release automation | TFS | Teamcity | New Relic | Nagios | Keyperformance | AWS Cloudwatch | Google Analytics | Webtrends | Webpagetest | TCP/IP, Loadbalancing | VPN | OpenSSL | DNS | Akamai | Chinacache | Microsoft IIS | Apache | Tomcat | IBM Websphere | Powershell | Shell scripting | VBS | Sitecore | Episerver | Umbraco | Tridion | Stellent | Sharepoint | Jira | Topdesk | HP"
+      date: "04-2007 - 02-2014"
+

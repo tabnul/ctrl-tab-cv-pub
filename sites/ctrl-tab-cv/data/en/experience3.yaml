@@ -1,0 +1,27 @@
+- company: Sentia
+  roles:
+    - role: Senior Cloud / Pre-sales Architect
+      details: |
+       - Architectural design of private- and public- cloud environment and hosted applications
+       - Participate and organize workshops with existing and potential customers
+       - Create slide-decks and technical offerings / cost calculations for potential customers 
+      environment: "Environment: Azure | AWS | Private Cloud | Containerization | Archimate | Blue Dolphin | Loadbalancing | CMS | Webapplication Firewalls | DevOps | Infrastructure as Code"
+      date: "09-2018 - 02-2019"
+
+
+- company: Mirabeau (2)
+  roles:
+    - role: Handson Cloud Solution Architect - Online
+      details: |
+       - Architectural design and support of applications and cloud solutions to support the Mirabeau software development processes (Azure + AWS)
+       - I was technical lead and architect on various cloud transitions where i was responsible for; application assessment, planning, deployment, cost calculation and roadmap creation
+       - Resonsible for maintenance and availability of the hosting and application/database envionment of several complex a-brand high traffic web- and backend applications
+       - Implementation of a self-service scalable CD-pipeline used for the deployment of multi-tenant application environments (Azure classic, Azure App services)
+       - As a performance consultant, I performed end-to-end performance analysis of web-applications and cloud-infrastructure, both internally and externally.
+       - As pre-sales architect, I supported our sales teams with answering RFP's (e.g. high level application- and cloud design, cost calculation)
+       - I lead a proof of concept with .NET Windows containers on AWS Elastic Container Service
+       - I designed and implemented a high-available cost-efficient Microsoft SQL Server environment for one of our customers
+
+        Customers: Arcadia Group (UK), Amgen, Allsecur, NVM, Makro, Fleurop, Homefashiongroup/Kwantum, Zowonen, Vestide, Dynasource, Stichting Pensioenregister
+      environment: "Environment: Azure | AWS | Verizon Cloud | Interoute | VMWare | Redhat Linux | Windows Server | SOA | Message Queueing | Microsoft SQL Server | MySQL | Caringo CAStor | Varnish | Squid | MemcacheD | CA Lisa release automation | TFS | Teamcity | New Relic | Nagios | Keyperformance | AWS Cloudwatch | Google Analytics | Webtrends | Webpagetest | TCP/IP, Loadbalancing | VPN | OpenSSL | DNS | Akamai | Chinacache | Microsoft IIS | Apache | Tomcat | IBM Websphere | Powershell | Shell scripting | VBS | Sitecore | Episerver | Umbraco | Tridion | Stellent | Sharepoint | Jira | Topdesk | HP"
+      date: "02-2016 - 09-2018"

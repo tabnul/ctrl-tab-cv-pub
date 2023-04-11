@@ -1,0 +1,16 @@
+professional:
+  - groupName: Professional
+    list:
+      - Kubernetes 
+      - Cloud technology
+      - Webapplications and online
+      - Complex application architecture
+private: 
+  - groupName: Spare time
+    list:
+      - Home automation and Homelab
+      - Herpetology
+      - 2 Kids
+      - Music
+      - Spinning and mountainbiking
+      - Nature and hiking

@@ -1,0 +1,31 @@
+- company: Infoland / Zenya
+  roles:
+    - role: Customer Support Engineer
+      details: |
+        - Tweede lijn technische ondersteuning op de Infoland .NET applicaties, troubleshooting en root cause analysis van diepgaande problemen
+        - Registreren van feature-requests en incidenten, ten behoeve van de optimalisatie van de software en het vergroten van de gebruiksvriendelijkheid van de applicaties
+        - Onsite en op afstand installlatie, configuratie en integratie van de Infoland software in de klant-omgevingen
+      environment: "Omgeving: VMWare | SOA | ASP.NET | Microsoft IIS | Loadbalancing | Wireshark | VPN | SSL | DNS | TSQL | Magic Servicedesk | Active Directory | Novell Directory Service | HTTP | ITIL | Windows Server"
+      date: "06-2005 - 04-2007"
+
+
+- company: VICT Informatici
+  roles:
+    - role: System Administrator
+      details: |
+        - Onsite beheer en onderhoud van clients, servers en backup systemen
+        - Troubleshooten van de VICT software, en het zorg dragen voor correcte integratie van de software met de klantomgeving 
+      environment: "Omgeving: Microsoft IIS | Microsoft Windows Server | Active Directory | AVG business"
+      date: "09-2004 - 06-2005"
+      
+
+- company: JMW Computers
+  roles:
+    - role: Service Engineer (internship)
+      details: |
+        - Assemblage en installatie van computers en servers
+        - Onsite ondersteuning van klanten en onderhoud van servers en infrastructuur
+        - Onsite support en server beheer
+        - Functionele en technische ondersteuning op hardware- en software-problemen
+      environment: "Omgeving: Windows desktop 95-98-me | Windows server NT4-2000 | Microsoft Active Directory | Microsoft Exchange"
+      date: "09-2001 - 08-2004"

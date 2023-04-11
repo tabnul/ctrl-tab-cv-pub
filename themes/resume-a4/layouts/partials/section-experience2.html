@@ -1,0 +1,17 @@
+{{ $data := index site.Data site.Language.Lang }}
+{{ range $data.experience2 }}
+<div class="item group">
+	<h2 class="item-title">{{ .company }}</h2>
+	{{ range .roles }}
+	<div class="item">
+		<div class="flex-row">
+			<span class="job-title">{{ .role }}</span>
+			<span class="date">{{ .date }}</span>
+		</div>
+		{{- partial "markdown" .details }}
+		<i>{{- partial "markdown" .environment }}</i>
+	</div>
+	<hr>
+	{{ end }}
+</div>
+{{ end }}

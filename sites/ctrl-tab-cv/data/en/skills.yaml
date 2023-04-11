@@ -1,0 +1,210 @@
+primary:
+  - groupName: Cloud platform engineering
+    list:
+      - Amazon Web services
+      - Microsoft Azure
+      - Google Cloud Platform
+  - groupName: Architectural design and concepts
+    list:
+      - Microservices
+      - Service-Oriented Architecture
+      - Hub-spoke topology
+      - 3 tier network topology
+      - Microsoft MSMQ, Apache Kafka, Amazon Simple Queueing Service, Azure Servicebus
+
+  - groupName: Kubernetes / Container orchestration
+    list:
+      - Kubernetes (K8S, K3S, RKE, EKS, AKS)
+      - External Secrets Operator
+      - External-DNS
+      - Cert-manager
+      - Open Policy Agent / Gatekeeper
+      - Aqua Container Security Platform
+      - Istio Service Mesh
+      - Docker
+      - AWS Elastic Container Service
+      - AWS Fargate
+      - Azure Container Instances
+      - Rancher
+
+  - groupName: Automation and CI/CD
+    list:
+      - Terraform
+      - Packer
+      - FluxCD
+      - ArgoCD 
+      - Tekton Pipelines
+      - Azure Resource Manager (ARM) 
+      - Ansible Tower/AWX 
+      - JFrog Artifactory
+      - Jenkins
+      - Atlassian Bamboo
+      - Puppet 
+      - Rundeck
+      - Cloudformation
+      - Azure DevOps
+      - Octopus Deploy
+      - CA Lisa Release automation
+      - Gitlab
+      - Github
+      - FluxCD / Gitops | Visual Studio / Code 
+
+
+  - groupName: Application and infrastructure performance testing
+    list:
+      - JMeter
+      - Blazemeter
+      - Taurus
+      - Swarm
+      - iometer
+      - iperf
+
+  - groupName: Observability
+    list:
+      - Prometheus
+      - Grafana
+      - Loki 
+      - Dynatrace
+      - New Relic
+      - Splunk
+      - Elastic Stack
+      - FluentD 
+      - CheckMK
+      - Cloudwatch 
+      - Zabbix
+      - Nagios
+      - Opsmanager
+  - groupName: Web, cache and application servers
+    list:
+      - Microsoft IIS
+      - Apache
+      - Tomcat
+      - NGinx
+      - IBM Websphere
+      - Varnish
+      - Squid
+      - Redi
+      - MemcacheD
+      - Apache SOLR
+
+  - groupName: Databases
+    list:
+      - Microsoft SQL Server (MSSQL) 
+      - MySQL
+      - Amazon RDS
+      - Azure SQL
+      - MariaDB
+      - PostgreSQL 
+      - Elasticsearch
+      - MongoDB
+
+
+
+
+  - groupName: Content Management Systems
+    list:
+      - Sitecore
+      - Episerver
+      - Hugo CMS
+      - Infoland / Zenya suite
+      - Microsoft Sharepoint
+
+secondary:
+  - groupName: Networking
+    list:
+      - TCP/IP
+      - OSI model
+      - Software Defined networking
+      - Layer 4-7 Firewalls | 
+      - Layer 4-7 Loadbalancing
+      - Content Delivery Networks
+      - VPN
+      - DNS
+  - groupName: Security and IAM
+    list:
+      - Tanium
+      - Cyberark
+      - Nessus
+      - WSO2
+      - PingFederate
+      - HP Fortify
+      - Mcafee Secure
+      - OWASP
+      - Trend-Micro Deep Security
+  - groupName: Virtualization
+    list:
+      - VMware ESXi
+      - Proxmox 
+      - Hyper-V 
+      - Redhat Enterprise Virtualization 
+      - KVM
+  - groupName: Storage and Backup
+    list:
+      - Velero Backup
+      - Longhorn
+      - Gluster
+      - Symantec Backup Exec
+      - Cloudberry
+      - Redate SQL suite
+      - EMC Networker
+      - Objectstorage (S3, Azure Blob, Caringo Castor)
+  - groupName: Scripting and languages
+    list:
+      - Python
+      - Shell/Bash
+      - Powershell
+      - Rego
+      - LUA
+      - VBS
+      - TSQL
+  - groupName: Operating systems
+    list:
+      - Red Hat Enterprise Linux
+      - Windows Server
+      - CentOS
+      - Amazon Linux
+      - Suse Linux
+      - Ubuntu and Debian
+
+
+  - groupName: Markup languages and protocols
+    list:
+      - YAML
+      - JSON
+      - XML/XSD
+      - SOAP
+      - REST
+
+  - groupName: Collaboration and Incident management
+    list:
+      - Atlassian Jira
+      - Atlassian Confluence
+      - Sharepoint
+      - Topdesk
+      - Servicenow 
+
+  - groupName: Methodologies
+    list:
+      - (Scaled) Agile
+      - Scrum
+      - Kanban
+      - SAFE
+      - DevOps
+      - Platform Engineering
+      - Waterfall
+      - ITIL
+
+  - groupName: Private projects (homelab)
+    list:
+      - Terraform
+      - Proxmox
+      - Ansible
+      - Kubernetes / K3S
+      - ArgoCD
+      - Longhorn 
+      - MinIO
+      - PhpIPAM
+      - OPNSense / PfSense
+      - Homeassistant
+      - Zigbee2MQTT
+
