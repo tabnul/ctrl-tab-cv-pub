@@ -1,0 +1,40 @@
+- company: CTRL-TAB IT Consultancy
+  roles:
+    - role: Consultant / Owner
+      details: |
+        CTRL-TAB IT Consultancy is een eenmanszaak die zich richt op korte- en mid-lange termijn ondersteuning van bedrijven die extra capaciteit nodig hebben.
+        De belangrijkste focus is:
+        - Cloud en infrastructuur architectuur en ontwikkeling
+        - Kubernetes platform architectuur en ontwikkeling
+        - DevOps team ondersteuning en ontwikkeling
+        - Cloud migratie en strategie
+      date: "04-2023 - current"
+
+
+- company: De Volksbank (Via Fullstaq)
+  roles:
+    - role: Platform Engineer | Hands on Architect
+      details: |
+       Onderdeel van het Kubernetes en Cloud team. De activiteiten bestaan onder andere uit:
+       - Ontwerp en ontwikkeling van een Terraform building block dat de uitrol van Kubernetes Clusters en cloud resources automatiseert, inclusief vangrails en last-mile-configuratie met ArgoCD
+       - Ontwerp, automatisering en implemnentatioe van een hoog-beschikbaar bedrijfs-kritische Istio Servicemesh met PKI integratie (AWS ACM PCA)
+       - Het uitvoeren van operationele activiteiten ten behoeve van de gezondheid van de Kubernetes clusters
+       - Onderhoud van de Observability stack
+       - In-take en refinement van user-stories
+       - High level design van een connectiviteit-strategie om Apache Kafka streams en HTTP API's te ontsluiten naar een externe partner, gevolgd door een proof of concept.
+       - Lifecycle management van cluster componenten en ontwikkeling en onderhoud van de Terraform stack en Tekton Pipelines
+       - Definiëren van de scope en de setup van de eerste fase van een proof-of-concept met Redhat Openshift on AWS (ROSA) - requirements verzamelen, vastlegging, organisatie van een kick-off workshop, demo-omgeving installeren
+      environment: "Omgeving: AWS EKS | Helm | Kustomize | Terraform | Istio | Tekton Pipelines | External Secrets Operator | Cert-manager | Github Actions | Open Policy Agent / Gatekeeper | Ingress-Nginx | AWS Privatelink | Suse Rancher | Prometheus | Grafana | Alertmanager | Loki | Venafi | Python | Shell scripting"
+      date: "01-2022 - 10-2023"
+
+
+- company: Europees Parlement (Via Fullstaq)
+  roles:
+    - role: DevOps Engineer | Hands on Architect
+      details: |
+       - Ontwerpen, bouwen en automatiseren van een Kubernetes omgeving met third-party eco-systeem op AWS
+       - Ophalen van requirements en uitvoeren van technische demonstraties voor de klant
+      environment: "Omgeving: Azure Sentinel | AWS Elastic Kubernetes Service and Active Directory Service | Suse Rancher | Gitlab CI | Aqua Container Security Platform (CI/CD and runtime) | Prometheus | Grafana | Alertmanager | Loki | fluentD"
+      date: "09-2021 - 12-2021"
+
+

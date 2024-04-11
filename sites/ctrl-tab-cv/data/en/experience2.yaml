@@ -1,0 +1,36 @@
+
+- company: Vecozo
+  roles:
+    - role: DevSecOps Engineer
+      details: |
+        - Automation of application deployments and configuration-changes in the DTAP environments
+        - Configuration management of the application hosting environment
+        - Automating penetration-tests and impact assessment of findings
+        - Addressing and/or solving of newly found application and infrastructure vulnerabilities
+        - Configuration and maintenance of the SSO solution based on PingIdentity / PingFederation
+        - Configuration, design and maintenance of the Microsoft SQL Server environments (high volume transactions and high availability)
+        - Maintenance of the Elastic Stack, used for both application performance monitoring and security alerting
+        - I implemented a custom monitoring solution to test the user-experience of the web-applications and the performance of the API's
+        - I lead the technical implementation and architecture of a new Intranet solution based on Microsoft Sharepoint
+      environment: "Environment: VMWare | Hyper-V | SOA | Microservices | Message Queueing | nServicebus | Nessus | Mcafee secure | OWASP | Microsoft SQL Server | Elasticsearch (ELK Stack) | Visual Studio Release Management | SCCM | SCOM | Sharepoint | IIS | ASP.NET | TFS | Fluent Migrator | Opsmanager | Google Analytics | Loadbalancing | PKI | OpenSSL | Wireshark | Powershell | Ektron | Episerver | Sharepoint | Powershell | TSQL | Topdesk | HTTP | SOAP | REST | XML | Yaml | Windows Server | DevOps | ITIL "
+      date: "02-2014 - 02-2016"
+
+
+
+- company: Mirabeau (1)
+  roles:
+    - role: Senior DevOps / Cloud Engineer - Online
+      details: |
+       - Responsible for maintenance and availability of the hosting and application/database environment of several complex a-brand high traffic web- and backend applications.
+       - I participated in various software development projects. Both as an operations engineer, application tester and tech-lead. Most prominently during the transformation of a legacy storage-system to a modern object-storage based solution for the business-critical processing and hosting of millions of images.
+       - I performed load-tests and end-to-end performance analysis for various internal and external customers, covering both the infrastructure and application performance
+       - I automated the deployment of cloud services and applications
+       - I migrated various applications from an on-premise environment into the AWS and Azure public cloud (re-platform and re-host strategy)
+       - I bridged the gap between our hosting partners,software developers and customers (configuration of cloud services and/or coordinating the activities of our partners)
+       - I tested the functionality and performance of new cloud vendors to support hosting supplier portfolio management.
+
+        Some of the customers i worked with;
+        NVM, Funda, KLM, Transavia, DAF Trucks, Vodafone, Aegon, Jumbo Supermarkten, Global Collect, Equens, VanDoorne, Paperlinx, Mediq, Stadgenoot, Citybox, Autotrader, DTG, Randstad"
+      environment: "Environment: AWS | Azure | Verizon Cloud | Interoute | VMWare | SOA | Message Queueing | Microsoft SQL Server | MySQL | Caringo CAStor | Varnish | Squid | MemcacheD | CA Lisa release automation | TFS | Teamcity | New Relic | Nagios | Keyperformance | AWS Cloudwatch | Google Analytics | Webtrends | Webpagetest | TCP/IP, Loadbalancing | VPN | OpenSSL | DNS | Akamai | Chinacache | Microsoft IIS | Apache | Tomcat | IBM Websphere | Powershell | Shell scripting | VBS | Sitecore | Episerver | Umbraco | Tridion | Stellent | Sharepoint | Jira | Topdesk | HP"
+      date: "04-2007 - 02-2014"
+

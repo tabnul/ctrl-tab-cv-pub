@@ -1,0 +1,159 @@
+baseURL: "/"
+defaultContentLanguage: nl
+title: "Resume | Thijs van Nuland"
+disableKinds: ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
+theme: "resume-a4"
+themesDir: "../../themes"
+deployment:
+  targets:
+    - name: "www.ctrl-tab.nl"
+      URL: "s3://www.ctrl-tab.nl?region=eu-central-1&prefix=cv/"
+      cloudFrontDistributionID: "ET0LXKB48SFGL"
+  matchers:
+  - pattern: "^.+\\.(js|css|svg|ttf)$"
+    cacheControl: "max-age=31536000, no-transform, public"
+    gzip: true
+  - pattern: "^.+\\.(png|jpg)$"
+    cacheControl: "max-age=31536000, no-transform, public"
+    gzip: false
+  - pattern: "^sitemap\\.xml$"
+    contentType: "application/xml"
+    gzip: true
+  - pattern: "^.+\\.(html|xml|json)$"
+    gzip: true
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
+languages:
+  en:
+    baseURL: "https://www.ctrl-tab.nl/cv/en/"
+    title: "Resume | Thijs van Nuland | English"
+    languageName: English
+    languageCode: "en"
+    weight: 1
+    params:
+      footer:
+        show: true
+        footnote: >-
+          Print (A4) or save as PDF
+      side:
+        - feature: languages
+        - feature: skills_compact
+          title: Skills
+        - feature: education
+      pages:
+        - features:
+            - feature: about
+              title: About Me
+            - feature: interests
+              title: Special Interests
+            - feature: industry
+              title: Industry experience
+        - features:
+            - feature: experience6
+              title: Experience (6)
+        - features:
+            - feature: experience5
+              title: Experience (5)
+        - features:
+            - feature: experience4
+              title: Experience (4)
+        - features:
+            - feature: experience3
+              title: Experience (3)
+        - features:
+            - feature: experience2
+              title: Experience (2)
+        - features:
+            - feature: experience1
+              title: Experience (1)
+        - features:
+            - feature: certificates
+              title: Certifications
+        - features:
+            - feature: courses_organized
+              title: Courses and workshops (organized)
+        - features:
+            - feature: courses_participated
+              title: Courses and workshops (participated)
+        - features:
+            - feature: skills_overview
+              title: Skills and experience overview
+  nl:
+    baseURL: "https://www.ctrl-tab.nl/cv/nl/"
+    title: "Resume | Thijs van Nuland | Nederlands"
+    languageName: Nederlands
+    languageCode: "nl"
+    weight: 2
+    params:
+      footer:
+        show: true
+        footnote: >-
+          Print (A4) of sla op als PDF
+      side:
+        - feature: languages
+        - feature: skills_compact
+          title: Vaardigheden
+        - feature: education
+      pages:
+        - features:
+            - feature: about
+              title: Over mij
+            - feature: interests
+              title: Speciale interesses
+            - feature: industry
+              title: Branche ervaring
+        - features:
+            - feature: experience5
+              title: Ervaring (5)
+        - features:
+            - feature: experience4
+              title: Ervaring (4)
+        - features:
+            - feature: experience3
+              title: Ervaring (3)
+        - features:
+            - feature: experience2
+              title: Ervaring (2)
+        - features:
+            - feature: experience1
+              title: Ervaring (1)
+        - features:
+            - feature: certificates
+              title: Certificeringen
+        - features:
+            - feature: courses_organized
+              title: Cursussen en workshops (georganiseerd)
+        - features:
+            - feature: courses_participated
+              title: Cursussen en workshops (deelgenomen)
+        - features:
+            - feature: skills_overview
+              title: Vaardigheden en ervaring overzicht
+params:
+  useFontAwesome: true
+  css:
+    - custom.scss
+    - print_urls.scss
+  header:
+    avatar: thijs.jpg
+    contact: true
+    tagline: true
+    links: true
+    companyinfo: true
+  footer:
+    links:
+      - prefix: 
+        title: Linkedin
+        url: 'https://www.linkedin.com/in/thijs-van-nuland-15680548/'
+        icon: fab fa-linkedin
+      - prefix: 
+        title: Github
+        url: 'https://github.com/tabnul'
+        icon: fab fa-github
+      - prefix: 
+        title: "www.ctrl-tab.nl"
+        url: 'https://www.ctrl-tab.nl'
+        icon: fa fa-globe

@@ -1,0 +1,17 @@
+name: Thijs van Nuland
+tagline: Cloud and DevOps Engineer / Architect
+email: info@ctrl-tab.nl
+companyinfo: "CTRL-TAB IT Consultancy | kvk: 89667832"
+links:
+  - title: in/thijs-van-nuland-15680548
+    url: https://tr.linkedin.com/in/thijs-van-nuland-15680548
+    icon: fab fa-linkedin
+  - title: tabnul
+    url: https://github.com/tabnul
+    icon: fab fa-github
+  - title: "www.ctrl-tab.nl"
+    url: "https://www.ctrl-tab.nl"
+    icon: fa fa-globe
+details: |
+  Lorem Ipsem
+

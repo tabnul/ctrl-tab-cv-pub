@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}"><!DOCTYPE html>
+{{ $title := .Site.Title }}
+{{ $data := index site.Data site.Language.Lang }}
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	{{ $style := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+	{{ if .Site.Params.useFontAwesome }}
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+	{{ end }}
+	{{ range .Site.Params.css }}
+	{{ $style := resources.Get (printf "css/%s" .) }}
+		{{ if $style }}
+		<link rel="stylesheet" href="{{ ($style | toCSS | minify | fingerprint).RelPermalink }}" />
+		{{ end }}
+	{{ end }}
+	<title itemprop="name">{{ .Site.Title }}</title>
+</head>
+
+<body>
+	<footer>
+		{{ partial "footer" (dict "Footer" .Site.Params.footer "useFontAwesome" .Site.Params.useFontAwesome) }}
+		{{ if .Site.IsMultiLingual }}
+		<nav aria-label="Language switcher">
+		  <ul>
+			{{ range .Site.Languages }}
+			{{ if eq . $.Site.Language }}
+			 <span class=languageSelector aria-label="{{ i18n "ariaLanguage" }}{{ .LanguageName }}">▶ {{ .LanguageName }}</span><br>
+			  {{ end }}
+			  {{ end }}
+			  <ul aria-labelledby="dropdown-title">
+				{{ range $.Translations }}
+				<a class=languageSelector title="{{ .Language.LanguageName }}" href="{{.Site.BaseURL}}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a>
+			  </ul>
+				{{ end }}
+			</li>
+		  </ul>
+		</nav>
+		{{ end }}
+
+
+
+
+
+	</footer>
+	<main class="paper">
+		<div class="grid">
+			<header class="flex-row">
+				{{ partial "header" (dict "Header" .Site.Params.header "Data" $data "useFontAwesome" .Site.Params.useFontAwesome) }}
+			</header>
+
+			{{ range first 1 .Site.Params.pages }}
+			<div class="left-column">
+				{{ range .features }}
+					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
+				{{ end }}
+			</div>
+			{{ end }}
+
+			<div class="right-column">
+				{{ range .Site.Params.side }}
+					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
+				{{ end }}
+			</div>
+		</div>
+	</main>
+
+	{{ range after 1 .Site.Params.pages }}
+	<article class="paper">
+		{{ range .features }}
+			{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome "Ctx" .) }}
+			<div class="page-footer">{{ $title }}</div>
+		{{ end }}
+
+	</article>
+	{{ end }}
+
+	{{ if .Site.Params.footer.show }}
+
+	{{ end }}
+</body>
+</html>

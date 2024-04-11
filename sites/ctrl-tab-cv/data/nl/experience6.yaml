@@ -1,0 +1,14 @@
+- company: Schiphol (Via CTRL-TAB IT Consultancy)
+  roles:
+    - role: Openshift Platform Engineer
+      details: |
+       Onderdeel van het ET Tech Container Platform team. Dit team is verantwoordelijk voor het Openshift platform hosted on-prem (vmware vsphere) en in de Microsoft Azure cloud. Ook het enablen van gebruikers via interne consultancy behoort tot de verantwoordelijkheid.  
+       De activiteiten bestaan onder andere uit:
+       - Bouwen en onderhouden van terraform codebase ten behoeve van de uitrol van Azure en Openshift Resources (infrastructure as code)
+       - Onderhouden van de Azure DevOps pipelines en gerelateerde resources
+       - Ontwerp en implementatie van een layer 7 beveiligingslaag op basis van de Azure Application Gateway (Webapplication Firewall) ten behoeve van beveiliging van de public-facing ingress controllers.
+       - Ontwerp van een ingress oplossing op basis van Nginx Plus
+       - Operationeel beheer om de Openshift clusters gezond te houden (monitoring en alerting, lifecycle management) op zowel Microsoft Azure als On-Prem (vsphere)
+       - Ondersteuning van de Product Owner bij de intake van technische user user-stories
+      environment: "Omgeving: Microsoft Azure | Vmware vSphere | Openshift Container Platform | CoreOS | Azure DevOps | Terraform | Open Policy Agent / Gatekeeper | Nginx Plus Ingress | Azure Privatelink | Splunk SignalFX | Alertmanager | Shell scripting"
+      date: "11-2023 - current"

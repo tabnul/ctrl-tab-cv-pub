@@ -1,0 +1,26 @@
+- company: Sentia
+  roles:
+    - role: Senior Cloud / Pre-sales Architect
+      details: |
+       - Design van de architectuur van private- en public cloud omgevingen inclusief de applicatie-laag
+       - Ik maakte en presenteerde slide-decks en schreef technische aanbiedingen en kosten-calculaties voor potentiele nieuwe klanten
+       - Ik nam deel aan- en organiseerde workshops met bestaande en potentieel nieuwe klanten
+      environment: "Omgeving: Azure | AWS | Private Cloud | Containerization | Archimate | Blue Dolphin | Loadbalancing | CMS | Webapplication Firewalls | DevOps | Infrastructure as Code"
+      date: "09-2018 - 02-2019"
+
+
+- company: Mirabeau (2)
+  roles:
+    - role: Handson Cloud Solution Architect - Online
+      details: |
+       - Design van architectuur van diverse applicaties en cloud-oplossingen, om de Mirabeau software ontwikkelprocessen te ondersteunen (Azure en AWS)
+       - Ik was tech lead en architect tijdens diverse  cloud-transitie waarbij ik me onder andere bezig hield met; applicatie-onderzoek, kosten-calculatie, planning, roadmap en uitrol
+       - Verantwoordelijk voor het onderhoud, beheer en de beschikbaarheid van de hosting en applicatie/database omgevingen voor diverse complexe high-traffic web- en backend applicaties van diverse a-merken.
+       - Implementatie van een self-service schaalbare Continuous Delivery pipeline die gebruikt werd door ontwikkelaars voor de uitrol van multi-tenant omgevingen (Microsoft Azure Classic, Azure App Services)
+       - In de rol 'performance consultant' heb ik diverse performance analyses gedaan van web-applicaties en cloud-infrastructuur, zowel voor interne als externe projecten
+       - In de rol 'pre-sales architect' heb ik het sales team ondersteund bij het beantwoorden van RFP's (bijvoorbeeld aanleveren van een high-level applicatie- en infrastructuur-design, een plan van aanpak en de kosten-calculaties)
+       - Ik heb een proof of concept uitgevoerd  met .NET Windows containers op de AWS Elastic Container Service
+       - Ik heb een high-available en kosten-efficiente Microsoft SQL Server omgeving ontworpen en uitgerold voor een van onze klanten
+        Een deel van de klanten: Arcadia Group (UK), Amgen, Allsecur, NVM, Makro, Fleurop, Homefashiongroup/Kwantum, Zowonen, Vestide, Dynasource, Stichting Pensioenregister
+      environment: "Omgeving: Azure | AWS | Verizon Cloud | Interoute | VMWare | Redhat Linux | Windows Server | SOA | Message Queueing | Microsoft SQL Server | MySQL | Caringo CAStor | Varnish | Squid | MemcacheD | CA Lisa release automation | TFS | Teamcity | New Relic | Nagios | Keyperformance | AWS Cloudwatch | Google Analytics | Webtrends | Webpagetest | TCP/IP, Loadbalancing | VPN | OpenSSL | DNS | Akamai | Chinacache | Microsoft IIS | Apache | Tomcat | IBM Websphere | Powershell | Shell scripting | VBS | Sitecore | Episerver | Umbraco | Tridion | Stellent | Sharepoint | Jira | Topdesk | HP"
+      date: "02-2016 - 09-2018"

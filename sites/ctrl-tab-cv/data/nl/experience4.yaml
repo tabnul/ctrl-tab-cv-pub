@@ -1,0 +1,27 @@
+- company: Capgemini
+  roles:
+    - role: Cloud Architect
+      details: |
+       Project: Bayer Cloud transitie:
+         - Ik heb een high-level design gemaakt voor de integratie tussen de Bayer R&D/fabriekslocaties en het Capgemini cloud-framework, bestaande uit onder andere; Identity and Access Management, Disaster Recovery, Observability, Secret management, Infrastructure Automation, Vulnerability management
+       
+         Project: Hema Cloud migratie:
+         - Het technisch coördineren van de cloud-migratie van diverse core-business applicaties van een on-premise omgeving naar de public cloud van Microsoft Azure en Amazon Web Services.
+         - Waar nodig maakte ik re-designs van applicaties en maakte ik korte-termijn technische roadmaps voor verdere ontwikkeling van de applicaties in de public cloud
+      environment: "Omgeving: AWS | Azure | GCP | Packer | Terremark | Jenkins | Zabbix | Splunk | EMC Networker | Trend-Micro Deep Security | Tanium | Cyberark | Nessus | QIP | VMWare"
+      date: "10-2020 - 09-2021"
+
+- company: ASML (via Bright Cubes)
+  roles:
+    - role: DevOps / Platform Engineer | Hands on Architect
+      details: |
+       - Ontwerpen en bouwen van hoog-beschikbare en veilige tool-chains en processen ter ondersteuning van de ontwikkeling van de Businessline Applications.
+       - Modernisatie van de legacy on-premise CI-infrastructuur door het integreren van tools zoals Hashicorp Packer, Terraform, Rundeck en Ansible
+       - Configuratie-beheer met Puppet
+       - Diepgaand performance-onderzoek van de CI-pipelines en de infrastructuur met behulp van Dynatrace. Implementatie en coördinatie van de bevindingen en oplossingen
+       - Ondersteunen van de product-owner met stakeholder management (pre-refinement van de complexere technische klantvragen en vertaling naar user story's)
+       - Organiseren van kennisdelings-sessies en demo's, primair binnen het team (Containerization and Continuous Delivery, Pets vs. Cattle, Dynatrace observability)
+      environment: "Omgeving: Atlassian Bamboo | Terraform | Puppet | Ansible | Rundeck | Packer | Docker | Rancher | Kubernetes | Red Hat Enterprise Virtualization / KVM | Azure | VMWare ESXi | ITIL | Scrum | Safe | Nexus | Artifactory | Python | PowerShell | Linux Red Hat | CentOS | Windows Server | Chef Inspec | SonarQube | Dynatrace One | Splunk | Microsoft SCOM | Prometheus | TCP/IP | Loadbalancing | Oracle | NetApp | Jira | ServiceNow | Gradle"
+      date: "02-2019 - 10-2020"
+
+

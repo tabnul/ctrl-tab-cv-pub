@@ -1,0 +1,9 @@
+{{ $data := index site.Data site.Language.Lang }}
+<div class="item">
+    <dl>
+        {{ range $data.skills.primary }}
+        <li>{{ .groupName }}</li>
+        {{ end }}
+    </dl>
+</div>
+

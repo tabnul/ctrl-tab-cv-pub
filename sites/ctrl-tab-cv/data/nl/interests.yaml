@@ -1,0 +1,16 @@
+professional:
+  - groupName: Zakelijk
+    list:
+      - Kubernetes 
+      - Cloud technology
+      - Webapplicaties en online
+      - Complexe applicatie omgevingenm
+private: 
+  - groupName: Vrije tijd
+    list:
+      - Home automation en Homelab
+      - Herpetologie
+      - 2 Kinderen
+      - Muziek
+      - Spinning en mountainbiken
+      - Natuur en hiking

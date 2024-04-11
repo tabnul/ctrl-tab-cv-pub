@@ -1,0 +1,2 @@
+{{ $data := index site.Data site.Language.Lang }}
+{{ partial "markdown" $data.about.details }}

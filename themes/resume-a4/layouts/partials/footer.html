@@ -1,0 +1,19 @@
+{{ $data := index site.Data site.Language.Lang }}
+{{ if .Footer.links }}
+<span class="footer-item">
+	{{ range .Footer.links }}
+	<span class="footer-link">
+		{{ .prefix }}
+		<a href="{{ .url }}" class="no-external-icon">
+			<span>{{ .title }} </span>
+			{{ if and $.useFontAwesome .icon }}<i class="{{ .icon }}"></i>{{ end }}
+		</a>
+	</span>
+	{{ end }}
+</span>
+{{ end }}
+
+<span class="footer-item">
+	<a href="#" onclick="window.print();return false;">{{ .Footer.footnote }}</a> 
+	
+</span>
